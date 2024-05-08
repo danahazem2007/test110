@@ -1,0 +1,14 @@
+create database login_ ;
+use login_
+
+create table uesr_   (
+id int primary key identity ,
+Username   varchar(150),
+Password_  varchar(150) ,
+Age   int ,
+Gender  varchar(150),
+Phone_number   varchar(11) Unique,
+City   varchar(150)
+
+);
+insert into uesr_ values (2, 'DanaHazem','DANA@123456',16,'Femla','01183856393','giza')
